@@ -1,0 +1,24 @@
+# Logs and state
+*.log
+*.bak
+*.bak.json
+_log.txt
+_errores.txt
+_rechazados.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+*.token
+samsung_token*.txt
+
+# macOS
+.DS_Store
+
+# Temporary
+/tmp/
