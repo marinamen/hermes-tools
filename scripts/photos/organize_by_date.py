@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Filtra y reorganiza SOLO fotos/vídeos de cámara real desde Transcend.
-
 CRITERIO FOTO REAL:
   - Tiene EXIF Make o Model (cámara/móvil), O
   - Es RAW (cr2/nef/arw/dng/orf/rw2/raw)
