@@ -1,6 +1,6 @@
 # email-triage
 
-Minimal IMAP email categorizer using Anthropic Claude.
+Minimal IMAP email categorizer using Anthropic Claude. Built for my father, but later adapted by integrating Hermes Terminal agent.
 
 Connects to any IMAP server, fetches unread emails, asks Claude to classify each one (Personal / Work / Bills / Newsletter / Spam / Other), prints a summary, and optionally moves them to `Triage/<Category>` folders.
 
