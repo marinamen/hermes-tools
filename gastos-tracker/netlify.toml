@@ -1,0 +1,58 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 3010
+
+# OpenClaw: health + manifest (before data routes and SPA fallback)
+[[redirects]]
+  from = "/api/v1/health"
+  to = "/.netlify/functions/v1-health"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/manifest"
+  to = "/.netlify/functions/v1-manifest"
+  status = 200
+
+# OpenClaw: CRUD primitives (same handler; path parsed from URL)
+[[redirects]]
+  from = "/api/v1/transactions"
+  to = "/.netlify/functions/v1-tables"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/transaction-tags"
+  to = "/.netlify/functions/v1-tables"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/transaction-tag-assignments"
+  to = "/.netlify/functions/v1-tables"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/exchange-rates"
+  to = "/.netlify/functions/v1-tables"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/cash-balances"
+  to = "/.netlify/functions/v1-tables"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/financial-forecasts"
+  to = "/.netlify/functions/v1-tables"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
