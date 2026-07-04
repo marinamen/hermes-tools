@@ -18,7 +18,6 @@ export FRAME_TV_MAC=AA:BB:CC:DD:EE:FF
 ```
 
 Needs `samsungtvws[encrypted]` and a paired token at `~/Gits/frame-control/state/samsung_token2.txt`.
-
 ### `scripts/photos/`
 Photo archive organization:
 - `organize_by_date.py` — sort photos into `YYYY/YYYY-MM-Mes/` from EXIF
