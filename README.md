@@ -30,9 +30,7 @@ Set `SOURCE_DIR` env var to your external drive path.
 Minimal IMAP email categorizer powered by Anthropic Claude. Reads unread emails from any IMAP server, classifies them (Personal / Work / Bills / Newsletter / Spam / Other), prints summaries, and optionally moves them into category folders. See `email-triage/README.md` for setup.
 
 ## Author
-
 Marina Mendieta — [@marinamen](https://github.com/marinamen)
 
 ## License
-
 MIT
