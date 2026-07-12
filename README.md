@@ -17,7 +17,6 @@ export FRAME_TV_IP=192.168.x.x
 export FRAME_TV_MAC=AA:BB:CC:DD:EE:FF
 ```
 
-
 Needs `samsungtvws[encrypted]` and a paired token at `~/Gits/frame-control/state/samsung_token2.txt`.
 ### `scripts/photos/`
 Photo archive organization:
