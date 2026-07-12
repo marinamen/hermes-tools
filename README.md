@@ -8,7 +8,7 @@ Tools and scripts for [Hermes Agent](https://github.com/NousResearch/hermes-agen
 Control scripts for Samsung The Frame TV (Art Mode):
 - `frame_carousel.py` — rotate through a JSON list of art-mode image IDs
 - `frame_brightness.py` — auto-adjust brightness by time of day
-- `frame_watchdog.py` — Wake-on-LAN if TV goes to standby
+- `frame_watchdog.py` — Wake-on-LAN if TV goes to standb
 - `frame_refresh_random.py` — pick a random year of photos, detect faces, fit them to the screen, add date overlay, and upload to the Frame
 
 Set up env:
