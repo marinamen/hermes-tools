@@ -26,6 +26,7 @@ Photo archive organization:
 
 Set `SOURCE_DIR` env var to your external drive path.
 
+
 ### `email-triage/`
 Minimal IMAP email categorizer powered by Anthropic Claude. Reads unread emails from any IMAP server, classifies them (Personal / Work / Bills / Newsletter / Spam / Other), prints summaries, and optionally moves them into category folders. See `email-triage/README.md` for setup.
 
