@@ -4,6 +4,7 @@ Tools and scripts for [Hermes Agent](https://github.com/NousResearch/hermes-agen
 
 ## What's here
 
+
 ### `scripts/frame/`
 Control scripts for Samsung The Frame TV (Art Mode):
 - `frame_carousel.py` — rotate through a JSON list of art-mode image IDs
